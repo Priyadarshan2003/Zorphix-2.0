@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="img/Zorphix final without name.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Zorphix</title>
+  </head>
+
+  <body class="body">
+    <div id="blur">
+      <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+        <label for="navi-toggle" class="navigation__button">
+          <span class="navigation__icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <label for="navi-toggle">
+                <div class="navigation__link">
+                  <a href="#" class="navigation__link one"> Home </a>
+                </div>
+              </label>
+            </li>
+            <li class="navigation__item">
+              <label for="navi-toggle">
+                <div class="navigation__link">
+                  <a href="#about" class="navigation__link two"> About </a>
+                </div>
+              </label>
+            </li>
+            <li class="navigation__item">
+              <label for="navi-toggle">
+                <div class="navigation__link">
+                  <a href="#events" class="navigation__link three"> Events </a>
+                </div>
+              </label>
+            </li>
+            <li class="navigation__item">
+              <label for="navi-toggle">
+                <div class="navigation__link">
+                  <a href="#team" class="navigation__link four"> Team </a>
+                </div>
+              </label>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <header class="header" id="header">
+        <div class="header__logo-box">
+          <img class="citlogo" src="./img/NEW LOGO CIT.png" alt="clg-logo" />
+        </div>
+
+        <div class="header__text-box">
+          <div class="logos">
+            <img
+              class="heading-primary--sub zor"
+              src="img/Zorphix final without name.png"
+              alt="new-logo"
+            />
+            <img
+              class="heading-primary--main zorphix"
+              src="img/zorphix-landing-logo.png"
+            />
+          </div>
+
+          <!-- </h1> -->
+          <h1 class="heading-primary--sub date">March 29th 2023</h1>
+
+          <a href="#about" class="btn btn--white btn--animated bold"
+            >Get Started</a
+          >
+        </div>
+      </header>
+
+      <main>
+        <section id="about" class="section-about">
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary letter-spacing">About Us</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-1-of-2">
+              <p class="paragraph">
+                <b>Computer Science & Business Systems</b>
+                is the first stream in engineering designed to meet the future
+                demands of the rapidly changing tech industry in the era of
+                Business 4.0. Designed by Tata Consultancy services in an MoU
+                with educational institutions, CSBS is the degree program of the
+                future. The curriculum aims to ensure that the students
+                graduating from the program not only skill up in computer
+                science but also develop an equal appreciation of humanities and
+                management sciences.
+              </p>
+              <p class="paragraph">
+                CSE with specialization in <b>Cyber security</b> is a future
+                focused specialized degree aiming at one of the most important
+                yet most overlooked tech domains - Cyber security. The program
+                equips students with Computer Science knowledge as well as the
+                competence to secure the Internet that will power our world
+                through the decades. This year, the maiden batch of CSE, with
+                specialization in Cyber security has been launched successfully
+                at Chennai Institute of Technology.
+              </p>
+            </div>
+            <div class="col-1-of-2">
+              <div class="composition">
+                <img
+                  srcset="
+                    img/logo3-01-min.jpeg  300w,
+                    img/logo3-01-min.jpeg 1000w
+                  "
+                  sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                  alt="Photo 1"
+                  class="composition__photo composition__photo--p1"
+                  src="img/logo3-01-min.jpeg"
+                />
+
+                <img
+                  srcset="
+                    img/main-img1-01-min.jpeg  300w,
+                    img/main-img1-01-min.jpeg 1000w
+                  "
+                  sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                  alt="Photo 2"
+                  class="composition__photo composition__photo--p2"
+                  src="img/main-img1-01-min.jpeg"
+                />
+
+                <img
+                  srcset="img/team-01-min.jpeg 300w, img/team-01-min.jpeg 1000w"
+                  sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                  alt="Photo 3"
+                  class="composition__photo composition__photo--p3"
+                  src="img/team-01-min.jpeg"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-features">
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary white letter-spacing">Sponsored By</h2>
+          </div>
+          <div class="sponsor">
+            <div class="github-sponsor">
+              <div class="section-sponsor-card">
+                <img src="./img/git.png" class="git" alt="github" />
+              </div>
+            </div>
+            <div class="row1">
+              <div class="section-sponsor-card">
+                <img
+                  src="./img/wolfr.png"
+                  class="i padding border wol"
+                  alt="wolfram"
+                />
+              </div>
+
+              <div class="section-sponsor-card">
+                <img
+                  src="./img/cake_logo_white.png"
+                  class="i padding-not"
+                  alt="interviewcake"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-tours" id="events">
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary letter-spacing">Technical Events</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-1-of-3">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--1-tech">&nbsp;</div>
+                  <h4 class="card__heading">
+                    <span
+                      class="card__heading-span card__heading-span--1 bold-white"
+                      >xCoders</span
+                    >
+                  </h4>
+                  <div class="card__details">
+                    <p>
+                      CrossCoders is a zappy solo event where plain old coding
+                      is not the only task. Participants are expected to analyze
+                      code snippets and convert them into a language of their
+                      choice.
+                    </p>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-1">
+                  <div class="card__cta">
+                    <div class="card__price-box">
+                      <p
+                        class="btn btn--white"
+                        onclick="toggle('xCoders', 'CrossCoders is a zappy solo event where plain old coding is not the only task. Participants are expected to analyze code snippets and convert them into a language of their choice. The most accurate conversion of the snippet takes the win. Don’t wait, let’s decode the code at ×Coders!', 'Yaazhini J', 'Sai Subash Chandra','+91 8428640960','+91 8754470644', 'forms.gle/RqExTs9gLNsFEPCHA')"
+                      >
+                        know More
+                      </p>
+                    </div>
+                    <a
+                      class="btn btn--white"
+                      target="_blank"
+                      href="https://forms.gle/RqExTs9gLNsFEPCHA"
+                      >Register Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-1-of-3">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--2-tech">&nbsp;</div>
+                  <h4 class="card__heading">
+                    <span
+                      class="card__heading-span card__heading-span--2 bold-white"
+                      >Thesis-Precized</span
+                    >
+                  </h4>
+                  <div class="card__details">
+                    <p>
+                      Make us reimagine the future of tech. Thesis-Precized is
+                      your platform to present your papers to a distinguished
+                      panel of judges. Emerge victorious, and you take home the
+                      title of Best Paper!
+                    </p>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-2">
+                  <div class="card__cta">
+                    <div class="card__price-box">
+                      <p
+                        class="btn btn--white"
+                        onclick="toggle('Thesis-Precized', 'Make us reimagine the future of tech. Thesis-Precized is your platform to present your papers to a distinguished panel of judges. Emerge victorious, and you take home the title of Best Paper!', 'Hemalakshumi K ', 'Madhuvanthi R','+91 89254 53687','+91 91508 64004', 'forms.gle/G9GTWJTvh4SZGvqJA')"
+                      >
+                        know More
+                      </p>
+                    </div>
+                    <a
+                      href="https://forms.gle/G9GTWJTvh4SZGvqJA"
+                      target="_blank"
+                      class="btn btn--white"
+                      >Register Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-1-of-3">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--3-tech">&nbsp;</div>
+                  <h4 class="card__heading">
+                    <span
+                      class="card__heading-span card__heading-span--3 bold-white"
+                      >Plugs Out!</span
+                    >
+                  </h4>
+                  <div class="card__details">
+                    <p>
+                      Blinded by the screen from coding all day? Flaunt your
+                      programming prowess as you code up solutions to
+                      algorithmic challenges at this sprightly event.Join us and
+                      discover the thrill of coding in a fun and interactive
+                      way!
+                    </p>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-3">
+                  <div class="card__cta">
+                    <div class="card__price-box">
+                      <p
+                        class="btn btn--white"
+                        onclick="toggle('Plugs Out!', 'Blinded by the screen from coding all day? Flaunt your programming prowess as you code up solutions to algorithmic challenges at this sprightly event. From beginner-friendly challenges to advanced programming quests, our games will test your skills and unleash your creativity. Join us and discover the thrill of coding in a fun and interactive way!', 'Rex Milan', 'Siva Manoj Kumar','+91 73586 97901','+91  80722 32119', 'forms.gle/P3QNm3woRoMd6bF66')"
+                      >
+                        Know More
+                      </p>
+                    </div>
+                    <a
+                      href="https://forms.gle/P3QNm3woRoMd6bF66"
+                      target="_blank"
+                      class="btn btn--white"
+                      >Register Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-tours sm-padding" id="section-tours">
+          <div class="row">
+            <div class="col-1-of-3">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--4-tech">&nbsp;</div>
+                  <h4 class="card__heading">
+                    <span
+                      class="card__heading-span card__heading-span--1 bold-white"
+                      >Game of Threats</span
+                    >
+                  </h4>
+                  <div class="card__details">
+                    <p>
+                      Cybersecurity awareness can be Fun. The game presents
+                      simulated threats and the players will develop and apply a
+                      basic understanding of attacks and defense strategies.
+                      Tackle Security Threats Today!
+                    </p>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-1">
+                  <div class="card__cta">
+                    <div class="card__price-box">
+                      <p
+                        class="btn btn--white"
+                        onclick="toggle('Game of Threats', 'Cybersecurity awareness can be Fun. The game presents simulated threats and the players will develop and apply a basic understanding of attacks and defense strategies. Tackle Security Threats Today!', 'Priyadharshan N S', 'Vishal','+91 9498379770','+91 6382145874','forms.gle/2r5S34Nfzvnivrzx6')"
+                      >
+                        know More
+                      </p>
+                    </div>
+                    <a
+                      href="https://forms.gle/2r5S34Nfzvnivrzx6"
+                      target="_blank"
+                      class="btn btn--white"
+                      >Register Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1-of-3">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--5-tech">&nbsp;</div>
+                  <h4 class="card__heading">
+                    <span
+                      class="card__heading-span card__heading-span--3 bold-white"
+                      >ALGO-RHYTHMS</span
+                    >
+                  </h4>
+                  <div class="card__details">
+                    <p>
+                      Join us for an enthralling session of coding with a hint
+                      of jazzy music! Here, the tech enthusiast delves into the
+                      world of coding against the constant distraction of music
+                      that makes you want to keep tapping your feet!. Let the
+                      beats and coding begin!
+                    </p>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-3">
+                  <div class="card__cta">
+                    <div class="card__price-box">
+                      <p
+                        class="btn btn--white"
+                        onclick="toggle('ALGO-RHYTHMS', ' Join us for an enthralling session of coding with a hint of jazzy music! Here, the tech enthusiast delves into the world of coding against the constant distraction of music that makes you want to keep tapping your feet! Are you up for the challenge? Let the beats and coding begin!', 'Nisha', 'Harisha','+91 6369946328','+91 9710514448', 'forms.gle/KQrFXKMjRHmNKVMC6')"
+                      >
+                        Know More
+                      </p>
+                    </div>
+                    <a
+                      href="https://forms.gle/KQrFXKMjRHmNKVMC6"
+                      target="_blank"
+                      class="btn btn--white"
+                      >Register Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-tours sm-padding" id="section-tours">
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary letter-spacing">
+              Non Technical Events
+            </h2>
+          </div>
+
+          <div class="row">
+            <div class="col-1-of-3">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--1-nontech">
+                    &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                    <span
+                      class="card__heading-span card__heading-span--1 bold-white"
+                      >At the Offside!</span
+                    >
+                  </h4>
+                  <div class="card__details">
+                    <p>
+                      From the dazzling footwork of the forwards to the heroic
+                      saves of the goalkeepers, every moment of the game is
+                      filled with excitement and anticipation. So grab a ball
+                      and get ready to kick off - the world of football is
+                      waiting for you!
+                    </p>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-1">
+                  <div class="card__cta">
+                    <div class="card__price-box">
+                      <p
+                        class="btn btn--white"
+                        onclick="toggle('At the Offside!', 'From the dazzling footwork of the forwards to the heroic saves of the goalkeepers, every moment of the game is filled with excitement and anticipation. So grab a ball and get ready to kick off - the world of football is waiting for you!', 'Raveen R V', 'Jayasudhan G','+91 8807335799','+91 8825966704', 'forms.gle/o6DvSCqchjNJEVGx9')"
+                      >
+                        know More
+                      </p>
+                    </div>
+                    <a
+                      href="https://forms.gle/o6DvSCqchjNJEVGx9"
+                      class="btn btn--white"
+                      target="_blank"
+                      >Register Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-1-of-3">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--2-nontech">
+                    &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                    <span
+                      class="card__heading-span card__heading-span--2 bold-white"
+                      >Pixellence</span
+                    >
+                  </h4>
+                  <div class="card__details">
+                    <p>
+                      Movie Buff? Time to unleash your cinematic acumen!
+                      Pixellence is a game for all movie enthusiasts to indulge
+                      in that will transport you right into the movie world.Get
+                      ready for a cinematic experience like no other.
+                    </p>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-2">
+                  <div class="card__cta">
+                    <div class="card__price-box">
+                      <p
+                        class="btn btn--white"
+                        onclick="toggle('Pixellence', 'Movie Buff? Time to unleash your cinematic acumen! Pixellence is a game for all movie enthusiasts to indulge in that will transport you right into the movie world.Get ready for a cinematic experience like no other.', 'Thiyaneshwar', 'Rohit','+91 7358087185','+91 7708338570','forms.gle/iZNUDr4H8Z96U4bQ7')"
+                      >
+                        know More
+                      </p>
+                    </div>
+                    <a
+                      href="https://forms.gle/iZNUDr4H8Z96U4bQ7"
+                      target="_blank"
+                      class="btn btn--white"
+                      >Register Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-1-of-3">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--3-nontech">
+                    &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                    <span
+                      class="card__heading-span card__heading-span--3 bold-white"
+                      >Euphony</span
+                    >
+                  </h4>
+                  <div class="card__details">
+                    <p>
+                      Tribute to Vijay TV’s famous Start Music, Euphony takes
+                      music games a notch higher. Participants contest in 3
+                      rounds of guessing games involving songs and music. Join
+                      us for a musical day at Euphony!
+                    </p>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-3">
+                  <div class="card__cta">
+                    <div class="card__price-box">
+                      <p
+                        class="btn btn--white"
+                        onclick="toggle('Euphony', 'Tribute to Vijay TV’s famous Start Music, Euphony takes music games a notch higher. Participants contest in 3 rounds of guessing games involving songs and music. Join us for a musical day at Euphony!', 'Anusuya', 'Viswanathan','+91 8838860480','+91 7010019624', 'forms.gle/34ZwQBSNnJriEQqW6')"
+                      >
+                        Know More
+                      </p>
+                    </div>
+                    <a
+                      href=" https://forms.gle/34ZwQBSNnJriEQqW6"
+                      target="_blank"
+                      class="btn btn--white"
+                      >Register Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-tours sm-padding" id="section-tours">
+          <div class="row">
+            <div class="col-1-of-3">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--4-nontech">
+                    &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                    <span
+                      class="card__heading-span card__heading-span--1 bold-white"
+                      >Fast 'n Frolic</span
+                    >
+                  </h4>
+                  <div class="card__details">
+                    <p>
+                      Ever wanted to participate in a live game show? Here’s
+                      your chance! Participants play a series of physical games
+                      to advance through rounds. Get your dose of fun at Fast ‘n
+                      Frolic!
+                    </p>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-1">
+                  <div class="card__cta">
+                    <div class="card__price-box">
+                      <p
+                        class="btn btn--white"
+                        onclick="toggle('Fast n Frolic', 'Ever wanted to participate in a live game show? Here’s your chance! Participants play a series of physical games to advance through rounds. Get your dose of fun at Fast ‘n Frolic!', 'Priyadharshini', 'Ratna Preethi','+91 7395930205','+91 9940515864','forms.gle/8djzKa4vAZdLEauY8')"
+                      >
+                        know More
+                      </p>
+                    </div>
+                    <a
+                      href="https://forms.gle/8djzKa4vAZdLEauY8"
+                      target="_blank"
+                      class="btn btn--white"
+                      >Register Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1-of-3">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--5-nontech">
+                    &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                    <span
+                      class="card__heading-span card__heading-span--3 bold-white"
+                      >Gully Cricket</span
+                    >
+                  </h4>
+                  <div class="card__details">
+                    <p>
+                      Prepare to feel the rush of adrenaline hit as you complete
+                      for the champions cup! Gully cricket is set to be intense,
+                      action packed cricket tournament for all cricket
+                      enthusiastics out there.
+                    </p>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-3">
+                  <div class="card__cta">
+                    <div class="card__price-box">
+                      <p
+                        class="btn btn--white"
+                        onclick="toggle('Gully Cricket', 'Prepare to feel the rush of adrenaline hit as you complete for the champions cup! Gully cricket is set to be intense, action packed cricket tournament for all cricket enthusiastics out there.', 'Athish', 'Sreehari','+91 7338940079','+91 6380247193', 'forms.gle/QYcnDbPbCvEZ1X1y9')"
+                      >
+                        Know More
+                      </p>
+                    </div>
+                    <a
+                      href="https://forms.gle/QYcnDbPbCvEZ1X1y9"
+                      target="_blank"
+                      class="btn btn--white"
+                      >Register Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-tours" id="section-tours">
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary letter-spacing">Business Events</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-1-of-3">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--3-business">
+                    &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                    <span
+                      class="card__heading-span card__heading-span--1 bold-white"
+                      >Wild Guess</span
+                    >
+                  </h4>
+                  <div class="card__details">
+                    <p>
+                      Get ready for an exciting event of innovation and
+                      inspiration, where ideas collide and possibilities ignite!
+                      Wild Guess is here to unlock your inner strategist and
+                      compete like a champion
+                    </p>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-1">
+                  <div class="card__cta">
+                    <div class="card__price-box">
+                      <p
+                        class="btn btn--white"
+                        onclick="toggle('Wild Guess', 'Get ready for an exciting event of innovation and inspiration, where ideas collide and possibilities ignite! Wild Guess is here to unlock your inner strategist and compete like a champion', 'Adithya', 'Ahamed Ismail Hisam','+91 7339044512','+91 8056847790', 'forms.gle/ensEUn6X4t9hd2Xz8')"
+                      >
+                        know More
+                      </p>
+                    </div>
+                    <a
+                      href="https://forms.gle/ensEUn6X4t9hd2Xz8"
+                      target="_blank"
+                      class="btn btn--white"
+                      >Register Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-1-of-3">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--1-business">
+                    &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                    <span
+                      class="card__heading-span card__heading-span--3 bold-white"
+                      >2 Facts 1 Lie</span
+                    >
+                  </h4>
+                  <div class="card__details">
+                    <p>
+                      66% of all statistics are made up. And we just made this
+                      up too. ;) 2 Facts 1 Lie is a fun event based on the
+                      popular party game 2 Truths 1 Lie, albeit with a business
+                      touch to it!
+                    </p>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-3">
+                  <div class="card__cta">
+                    <div class="card__price-box">
+                      <p
+                        class="btn btn--white"
+                        onclick="toggle('2 Facts 1 Lie', '66% of all statistics are made up. And we just made this up too. ;) 2 Facts 1 Lie is a fun event based on the popular party game 2 Truths 1 Lie, albeit with a business touch to it! Participants will be shown factoids related to business and must guess the made up factoid among them. A dash of analysis, strategy and intuition will get you the prize.','Shanmugapriya', 'Datchayani','+91 9344166539','+91 9159115216', 'forms.gle/tYdt1ywCaw6wAKEe7')"
+                      >
+                        Know More
+                      </p>
+                    </div>
+                    <a
+                      href="https://forms.gle/tYdt1ywCaw6wAKEe7"
+                      target="_blank"
+                      class="btn btn--white"
+                      >Register Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-tours" id="section-tours">
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary letter-spacing">Technical Workshop</h2>
+          </div>
+
+          <div class="single-card">
+            <!-- <div class="col-1-of-3"> -->
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--2-workshop">
+                  &nbsp;
+                </div>
+                <h4 class="card__heading">
+                  <span
+                    class="card__heading-span card__heading-span--1 bold-white"
+                    >Introduction to Git & GitHub</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <p>
+                    Learn to master the most important tool of your software
+                    engineering career with GitHub! Get ready to go from zero to
+                    hero with Git and GitHub through a hands-on workshop with
+                    our local GitHub Campus Expert
+                  </p>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p
+                      class="btn btn--white"
+                      onclick="toggle('Introduction to Git & GitHub', 'Learn to master the most important tool of your software engineering career with GitHub! Get ready to go from zero to hero with Git and GitHub through a hands-on workshop with our local GitHub Campus Expert','Induja Shankar', 'Harika','+91 94456 62222','+91 8341891814', 'forms.gle/WmFACs9RyrNLZLWA7')"
+                    >
+                      know More
+                    </p>
+                  </div>
+                  <a
+                    href="https://forms.gle/WmFACs9RyrNLZLWA7"
+                    class="btn btn--white"
+                    target="_blank"
+                    >Register Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="team section-stories" id="team">
+          <div class="bg-video">
+            <video class="bg-video__content" autoplay muted loop>
+              <source src="img/video.mp4" type="video/mp4" />
+              <source src="img/video.webm" type="video/webm" />
+              Your browser is not supported!
+            </video>
+          </div>
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary">Our Team</h2>
+          </div>
+          <div class="main-section">
+            <div class="box">
+              <h2 class="position">President</h2>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Induja Shankar
+              </h3>
+              <p>+91 94456 62222</p>
+            </div>
+            <div class="box">
+              <h2 class="position">Core Organiser</h2>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Alen Joseph Babu & Bhuvanesh
+              </h3>
+              <p>+91 8825994012</p>
+            </div>
+            <div class="box">
+              <h2 class="position">Treasurer</h2>
+              <h3 class="heading-tertiary u-margin-bottom-small">Manoj</h3>
+              <p>+91 93446 28787</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__logo-box">
+          <picture class="footer__logo">
+            <img alt="Full logo" src="./img/footer.png" />
+          </picture>
+        </div>
+        <div class="row">
+          <div class="col-1-of-2">
+            <p class="footer__copyright">
+              Zorphix is a techno-management symposium organized by the
+              Department of 'Computer Science and Business Systems' and 'Cyber
+              Security' at Chennai Institute of Technology.
+            </p>
+          </div>
+
+          <div class="col-1-of-2">
+            <div class="footer__navigation">
+              <div class="f">
+                <h3>CONNECT WITH US</h3>
+                <a
+                  href="https://www.instagram.com/zorphix.cit/"
+                  target="_blank"
+                >
+                  <img class="footer__img" src="./img/insta footer.png" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="text-align: center">
+          <span class="copyright">@Zorphix 2023 All rights reserved</span>
+        </div>
+      </footer>
+    </div>
+    <div id="pop">
+      <h2 class="event_heading"></h2>
+
+      <div class="event_section">
+        <button class="about-button">About</button>
+        <button class="organiser-button">Organiser</button>
+      </div>
+      <p class="event_content"></p>
+      <div class="org hide">
+        <div class="org1">
+          <h2 class="org1-name"></h2>
+          <p>ORGANISER</p>
+          <p class="org1-phone"></p>
+        </div>
+        <div class="org2">
+          <h2 class="org2-name"></h2>
+          <p>ORGANISER</p>
+          <p class="org2-phone"></p>
+        </div>
+      </div>
+      <div class="modal-button">
+        <a class="btn btn--green" onclick="toggle()">Close</a>
+        <a class="btn btn--green regi" target="_blank">Register</a>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
