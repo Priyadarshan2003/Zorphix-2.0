@@ -908,9 +908,9 @@ body {
       from(#10002b),
       to(#240046)
     ),
-    url(../img/plug.jpg);
+    url(../img/plug_wmrem.jpeg);
   background-image: linear-gradient(to right bottom, #10002b, #240046),
-    url(../img/plug.jpg);
+    url(../img/plug_wmrem.jpeg);
 }
 
 .card__picture--4-tech {
