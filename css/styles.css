@@ -1995,6 +1995,10 @@ html {
 .padding {
   height: 140px !important;
 }
+.ocean {
+  margin-top: 30px;
+  height: 310px;
+}
 
 .padding-not {
   margin-top: 50px;
@@ -2009,6 +2013,9 @@ html {
   .padding {
     height: 120px !important;
     width: 200px !important;
+  }
+  .ocean {
+    height: 210px !important;
   }
 }
 
