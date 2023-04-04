@@ -2005,6 +2005,10 @@ html {
   height: 140px !important;
 }
 
+.some-large {
+  height: 171px;
+}
+
 @media screen and (max-width: 480px) {
   .padding-not {
     height: 70px !important;
@@ -2039,6 +2043,9 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .some-large {
+    height: 121px;
   }
 }
 
